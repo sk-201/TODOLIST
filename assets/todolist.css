@@ -1,0 +1,78 @@
+
+#cont{
+	box-shadow: 0 0 3px rgba(255,255,255,0.2);
+	width: 500px;
+	margin:auto;
+	padding-bottom: 50px;
+
+}
+.select
+{
+	text-decoration: line-through;
+	color: #E4E5E9;
+}
+#hel{
+	padding-left: 100px;
+
+}
+li:nth-child(2n){
+	background-color:#808080;
+	margin-left: 70px;
+	
+}
+
+
+body{
+	background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Lato', sans-serif;
+
+}
+h1{
+	padding-left: 100px;
+	color: #f2f2f2;
+	font-weight: normal;
+
+}
+input{
+	margin-left: 100px;
+	width: 200px;
+	outline: none;
+	/*padding-bottom: 20px;*/
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-bottom: 0px;
+	font-weight: normal;
+
+}
+
+
+li{
+	margin-left: 55px;
+	width: 200px;
+    color: #e6e6e6;
+	font-weight: light;
+	background-color:#b3b3b3;
+	height: 2	0px;
+	line-height: 15px;
+	margin-top: 0px;
+	padding-bottom: 2px;	
+
+}
+
+
+.delete{
+	padding-bottom: 0px;
+	width: 0px;
+	background-color: black;
+	transition: 0.3s linear;
+
+}
+li:hover .delete{
+	width: 20px; 
+}
+ul{
+	list-style: none;
+	margin-bottom: 0px;
+}
